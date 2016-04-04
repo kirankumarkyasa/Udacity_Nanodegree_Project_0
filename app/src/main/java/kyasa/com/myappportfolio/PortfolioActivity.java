@@ -14,11 +14,6 @@ import android.widget.Toast;
 public class PortfolioActivity extends AppCompatActivity implements View.OnClickListener{
 
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
-    }
-
-    @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.portfolio);
