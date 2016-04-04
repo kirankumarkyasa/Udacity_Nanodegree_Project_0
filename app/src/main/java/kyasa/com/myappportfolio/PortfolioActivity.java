@@ -17,8 +17,6 @@ public class PortfolioActivity extends AppCompatActivity implements View.OnClick
     @Override
     public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
-
-
     }
 
     @Override
