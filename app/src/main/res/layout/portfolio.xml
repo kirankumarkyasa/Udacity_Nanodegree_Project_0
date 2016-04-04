@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textSize="28sp"
+        android:text="@string/Header_text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_1"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAllCaps="true"
+        android:text="@string/btn_1_text"
+        android:textColor="@color/black_color"
+        android:background="@color/orange_color"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_2"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAllCaps="true"
+        android:text="@string/btn_2_text"
+        android:textColor="@color/black_color"
+        android:background="@color/orange_color"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_3"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAllCaps="true"
+        android:text="@string/btn_3_text"
+        android:textColor="@color/black_color"
+        android:background="@color/orange_color"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_4"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAllCaps="true"
+        android:text="@string/btn_4_text"
+        android:textColor="@color/black_color"
+        android:background="@color/orange_color"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_5"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAllCaps="true"
+        android:text="@string/btn_5_text"
+        android:textColor="@color/black_color"
+        android:background="@color/orange_color"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_6"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:text="@string/btn_6_text"
+        android:textColor="@color/white_color"
+        android:background="@color/red_color"
+        android:layout_marginBottom="5dp"/>
+
+
+</LinearLayout>
+    <!--/*case R.id.btn_1:
+    showmessage(getResources().getString(R.string.btn_1_text));
+    break;
+    case R.id.btn_2:
+    showmessage(getResources().getString(R.string.btn_2_text));
+    break;
+    case R.id.btn_3:
+    showmessage(getResources().getString(R.string.btn_3_text));
+    break;
+    case R.id.btn_4:
+    showmessage(getResources().getString(R.string.btn_4_text));
+    break;
+    case R.id.btn_5:
+    showmessage(getResources().getString(R.string.btn_5_text));
+    break;
+    case R.id.btn_6:
+    showmessage(getResources().getString(R.string.btn_6_text));
+    break;*/-->
